@@ -8,7 +8,7 @@ CREATE TABLE Products (
 	Name nvarchar(50),
 	Primary Key(Id)
 );
-```
+
 
 INSERT INTO Products
 VALUES
@@ -53,3 +53,4 @@ LEFT JOIN ProductCategories PC
 	ON P.Id = PC.ProductId
 LEFT JOIN Categories C
 	ON PC.CategoryId = C.Id;
+```
